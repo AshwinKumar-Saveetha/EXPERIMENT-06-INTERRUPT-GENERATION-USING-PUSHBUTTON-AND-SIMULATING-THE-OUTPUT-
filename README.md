@@ -36,9 +36,11 @@ Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on diff
 1. click on STM 32 CUBE IDE
 2. click on FILE, click on new stm 32 project 
 3. select the target to be programmed
+
 4.select the program name
 
 5. corresponding ioc file will be generated automatically 
+
 6.select the appropriate pins as gipo, in or out, USART or required options and configure 
 
 7.click on cntrl+S , automaticall C program will be generated 
@@ -58,17 +60,12 @@ Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on diff
 We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 
 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
+
 14. After creation of the circuit as per requirement as shown below 
 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+15. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 
-14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
-https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
-
-15. click on debug and simulate using simulation as shown below 
-
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
-
+16. click on debug and simulate using simulation
 
   
 
