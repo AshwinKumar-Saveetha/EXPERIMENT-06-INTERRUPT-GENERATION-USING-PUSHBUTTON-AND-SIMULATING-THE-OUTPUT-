@@ -34,7 +34,9 @@ One important thing to note here is that same number pins are connected to line 
 Now each of these lines EXTI0-EXTI15 can be used to trigger an interrupt on different modes of the signal : rising edge, falling edge or rising_falling edge.
 ## Procedure:
 1. click on STM 32 CUBE IDE
+
 2. click on FILE, click on new stm 32 project 
+
 3. select the target to be programmed
 
 4.select the program name
