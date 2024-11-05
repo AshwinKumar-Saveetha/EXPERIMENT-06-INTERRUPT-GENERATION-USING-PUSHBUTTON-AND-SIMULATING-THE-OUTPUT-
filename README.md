@@ -161,6 +161,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 <br><br><br><br>
 <br><br><br><br> <br><br><br><br>
 <br><br><br><br>
+<br><br><br><br><br><br><br><br> <br><br><br><br>
+<br><br><br><br>
 <br><br><br><br>
 
 ## Output screen shots of proteus  :
@@ -170,7 +172,7 @@ void assert_failed(uint8_t *file, uint32_t line)
  <br><br><br><br>
 <br><br><br><br>
 <br><br><br><br><br><br><br><br>
-<br><br><br><br>
+<br><br>
  
 ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
